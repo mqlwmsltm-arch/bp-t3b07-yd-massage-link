@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="여의도 마사지 링크 블로그 - 마사지의 진짜 의미를 묻다. 자본주의 마사지 산업에 대한 브루탈리스트의 시각. 010-6279-0862.">
+    <meta name="keywords" content="여의도 마사지, 여의도 마사지 링크, 마사지 블로그, 여의도 마사지 추천, 마사지, 여의도, 마사지 링크">
+    <meta name="bpaas-design-system" content="brutalist-avantgarde">
+    <meta name="bpaas-design-theme" content="kr-acid-yellow">
+    <link rel="canonical" href="https://t3b07-yd-massage-link.vercel.app/blog">
+    <meta property="og:title" content="여의도 마사지 링크 블로그 - 브루탈리즘의 시선">
+    <meta property="og:description" content="여의도 마사지 링크 블로그. 자본주의 마사지에 대한 단호한 선언.">
+    <title>여의도 마사지 링크 – 블로그</title>
+    <style>
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+        body { font-family: 'IBM Plex Mono', 'Courier New', monospace; background: #0d0d0d; color: #e0e0e0; line-height: 1.6; }
+        img, svg { max-width: 100%; height: auto; display: block; }
+        a { color: #f4e542; text-decoration: none; border-bottom: 2px solid transparent; transition: border-color 0.2s; }
+        a:hover { border-bottom-color: #f4e542; }
+        ul, ol { list-style: none; }
+        h1, h2, h3, h4 { font-weight: 800; letter-spacing: -0.03em; color: #f4e542; }
+        h1 { font-size: clamp(2.4rem, 8vw, 4.8rem); text-transform: uppercase; line-height: 0.9; }
+        h2 { font-size: clamp(1.8rem, 5vw, 3.2rem); border-left: 8px solid #f4e542; padding-left: 1rem; margin-bottom: 1.5rem; }
+        h3 { font-size: clamp(1.2rem, 3vw, 1.8rem); margin-bottom: 0.75rem; }
+        p, li, blockquote { font-size: 1rem; margin-bottom: 1.2rem; }
+        strong { color: #f4e542; font-weight: 800; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 1.5rem; }
+        header { background: #111; border-bottom: 4px solid #f4e542; padding: 1.5rem 0; position: sticky; top: 0; z-index: 100; }
+        .header-inner { display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-size: 1.8rem; font-weight: 900; color: #f4e542; text-transform: uppercase; letter-spacing: -0.04em; border: none; }
+        .logo:hover { border: none; opacity: 0.8; }
+        nav { display: flex; gap: 1.5rem; align-items: center; }
+        nav a { font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.1em; font-weight: 600; }
+        .hamburger { display: none; flex-direction: column; cursor: pointer; gap: 5px; background: none; border: none; }
+        .hamburger span { width: 30px; height: 4px; background: #f4e542; transition: 0.3s; }
+        @media (max-width: 768px) {
+            nav { display: none; flex-direction: column; position: absolute; top: 100%; left: 0; right: 0; background: #111; padding: 1.5rem; border-bottom: 4px solid #f4e542; }
+            nav.active { display: flex; }
+            .hamburger { display: flex; }
+        }
+        .tel-link { background: #f4e542; color: #0d0d0d; padding: 0.3rem 1rem; font-weight: 800; border-radius: 0; border: 2px solid #f4e542; }
+        .tel-link:hover { background: transparent; color: #f4e542; border-color: #f4e542; }
+        .hero { padding: 4rem 0 2rem; border-bottom: 2px solid #333; }
+        .hero h1 { margin-bottom: 1rem; }
+        .hero p { font-size: 1.2rem; max-width: 700px; }
+        .blog-post { padding: 3rem 0; border-bottom: 1px solid #333; }
+        .blog-post:last-of-type { border-bottom: none; }
+        .blog-meta { font-size: 0.8rem; color: #888; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 1rem; }
+        .blog-content { max-width: 800px; }
+        .blog-content h2 { margin-top: 2rem; }
+        .blog-content p { font-size: 1.05rem; }
+        .blog-content blockquote { border-left: 6px solid #f4e542; padding-left: 1.5rem; font-style: italic; color: #ccc; margin: 1.5rem 0; }
+        .blog-content ul { list-style: square; padding-left: 1.5rem; margin-bottom: 1.2rem; }
+        .blog-content ul li { margin-bottom: 0.5rem; }
+        .footer { background: #111; border-top: 4px solid #f4e542; padding: 2rem 0; text-align: center; margin-top: 3rem; }
+        .footer p { font-size: 0.85rem; color: #888; }
+        .footer a { color: #f4e542; }
+        @media (max-width: 768px) {
+            .header-inner { flex-wrap: wrap; }
+            .hero h1 { font-size: 2rem; }
+        }
+    </style>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+</head>
+<body>
+    <header>
+        <div class="container header-inner">
+            <a href="/" class="logo">여의도 마사지 링크</a>
+            <button class="hamburger" aria-label="메뉴 열기" onclick="this.nextElementSibling.classList.toggle('active')">
+                <span></span><span></span><span></span>
+            </button>
+            <nav>
+                <a href="/">홈</a>
+                <a href="/about">소개</a>
+                <a href="/blog">블로그</a>
+                <a href="/contact">문의</a>
+                <a href="tel:010-6279-0862" class="tel-link">010-6279-0862</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>브루탈리스트의 목소리</h1>
+                <p>여의도 마사지 링크가 던지는 단언. 마사지, 진짜 의미를 찾아서.</p>
+            </div>
+        </section>
+
+        <section class="blog-post">
+            <div class="container">
+                <div class="blog-content">
+                    <div class="blog-meta">2025.04.10 | 여의도 마사지 링크</div>
+                    <h2>마사지, 왜 너는 거기서 굴복하는가?</h2>
+                    <p>여의도, 자본주의의 심장. 여기서 마사지는 단순한 서비스가 아니다. 너는 왜 아무 마사지나 받아들이는가? 가격, 분위기, 부드러운 손길… 그런 것들에 속지 마라.</p>
+                    <p>진짜 마사지는 저항이다. 몸과 정신이 찌들었을 때, 그것을 깨부수는 행위다. 여의도 마사지 링크는 그걸 안다. 우리는 거침없이 밀어붙인다. 근육을 풀고, 경직된 사고를 해체한다.</p>
+                    <blockquote>“마사지는 편안함이 아니라 전쟁이다. 너의 몸이 싸우는 방식이다.”</blockquote>
+                    <p>자본주의는 너를 약하게 만든다. 스트레스, 경쟁, 불안. 그런데 마사지 업계는 또 다른 소비의 덫을 놓는다. 향기, 음악, 부드러운 조명… 그 모든 것은 너를 다시 소비자로 만든다.</p>
+                    <p>우리는 다르다. 여의도 마사지 링크의 케어는 브루탈리즘 그 자체다. 불편함을 직시하고, 통증을 이해하며, 그 너머의 해방을 추구한다. 너에게 필요한 것은 아첨이 아니라 정면 돌파다.</p>
+                    <h3>그래서, 뭘 할 건가?</h3>
+                    <ul>
+                        <li>소비자가 아닌 전사가 되어라.</li>
+                        <li>가벼운 만족 대신 강렬한 변화를 선택하라.</li>
+                        <li>전화해라. 010-6279-0862. 우리가 직접 말해준다.</li>
+                    </ul>
+                    <p>여의도 마사지 링크는 너를 기다리지 않는다. 너가 결정하라. 이 글을 읽는 순간, 이미 선택의 기로에 서 있다. 마사지의 진짜 의미를 원한다면, 지금 행동하라.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>여의도 마사지 링크 | 010-6279-0862 | 자본주의에 찌든 당신을 위한 유일한 마사지</p>
+            <p>© 2025 여의도 마사지 링크. All rights reserved. | <a href="/privacy">개인정보처리방침</a></p>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelector('.hamburger').addEventListener('click', function() {
+            document.querySelector('nav').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
